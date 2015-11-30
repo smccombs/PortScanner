@@ -1,0 +1,19 @@
+Date: 11-25-2015
+Author: Shawn McCombs
+Name: PortScanner
+Python
+
+Example: PortScanner.py 74.125.21.113 list 80,81
+74.125.21.113:80 --port open
+74.125.21.113:81 --port closed
+
+Example: PortScanner.py 74.125.21.113 range 80 85
+74.125.21.113:80 --port open
+74.125.21.113:81 --port closed
+74.125.21.113:82 --port closed
+74.125.21.113:83 --port closed
+74.125.21.113:84 --port closed
+74.125.21.113:85 --port closed
+
+Description:
+Simple port scanning script from python using sockets
